@@ -1,0 +1,2 @@
+class GridController < ApplicationController
+end

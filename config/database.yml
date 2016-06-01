@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: 12345Postgres
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+
+development:
+  <<: *default
+  database: tic-tac-toe-app_development
+
+test:
+  <<: *default
+  database: tic-tac-toe-app_test
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
