@@ -1,24 +1,5 @@
-# README
+# Tic Tac Toe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tic Tac Toe made in Rails 5 and Action Cable
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Read](http://cookieshq.co.uk/posts/tic-tac-toe-game-in-rails-5-with-action-cable/) our blog post about how this was made using Action Cable in Rails 5
