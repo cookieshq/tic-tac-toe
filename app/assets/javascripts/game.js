@@ -160,9 +160,11 @@ var Game = function(element, playerType){
   };
 
   this.gameOver = function(Player){
-    if (!Player){
-      $('td.X, td.O', this.element).addClass('animated swing')
-      return $('#status').text('It\'s a Draw!').addClass('show');
+    if (!Player) {
+      $('td.X, td.O', this.element).addClass('animated swing');
+      $('#restart').removeClass('hidden');
+      $('#status').text('It\'s a Draw!').addClass('show');
+      return true;
     }
 
     // only animate the winning pieces!
